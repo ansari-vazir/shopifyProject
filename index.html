@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans font-medium">
+    <!-- navbar -->
+    <nav class="bg-[#edfdfb] px-6 md:px-20 flex justify-between flex-col md:flex-row">
+        <div class="flex justify-between">
+            <button id="hamber" class="w-14 md:hidden  px-4">
+                <img src="./asset/hamburger.png" alt="">
+            </button>
+            <img class="w-30" src="./asset/download.png" alt="logo">
+        </div>
+        <div id="menuList" class="-mx-6 md:mx-6 text-green-100 md:text-gray-500 flex bg-black md:bg-transparent flex-col flex-grow justify-between md:flex-row">
+            <div class="flex flex-col m-6 gap-6 md:flex-row">
+                <a href="#" class="hover:text-black">Start</a>
+                <a href="#" class="hover:text-black">Sell</a>
+                <a href="#" class="hover:text-black">Market</a>
+                <a href="#" class="hover:text-black">Manage</a>
+            </div>
+            <div class="flex flex-col m-6 gap-6 md:flex-row">
+                <a href="#" class="hover:text-black">Pricing</a>
+                <a href="#" class="hover:text-black">Learn</a>
+                <a href="#" class="hover:text-black">Log in</a>
+            </div>
+        </div>
+        <button class="text-white hover:bg-green-600 hidden md:block cursor-pointer bg-[#008663] rounded-md p-2 my-4">Start free trial</button>
+    </nav>
+    
+    <!--1st page-->
+    <hr class="h-px bg-gray-300 border-0">
+    <div class="tracking-tighter bg-[#edfdfb] flex flex-col md:flex-row p-10 md:p-22 justify-between overflow-hidden">
+        <div>
+            <h3 class="font-bold text-sm py-2">FACEBOOK AND INSTAGRAM</h3>
+            <h1 class="py-2 text-[#004f41] text-xl md:text-5xl font-bold ">Grow your business with <br> Facebook and Instagram <br> from one place</h1>
+            <p class="py-5 text-gray-500">With over 1.7 billion active users, Facebook and <br class="hidden md:block"> Instagram let you sell and market where your <br class="hidden md:block"> customers are.</p>
+            <button class="p-3 text-white rounded-md bg-[#008663] cursor-pointer">Install Facebook</button>
+            <a class="underline flex py-3 text-green-700" href="#">Don't have a Shopify store?</a>
+        </div>
+        <div class="w-150 h-150 -m-30 hidden md:block realtive rounded-full bg-[#007d7b]">
+            <img class="w-100 m-22 absolute top-15 right-25" src="./asset/facebook-instagraimage.png" alt="">
+        </div>
+    </div>
+    <div class="p-10 md:p-22 bg-[#edfdfb] flex flex-col md:flex-row justify-start  gap-15">
+        <div class="w-65 flex flex-col gap-y-2">
+            <div class="bg-[#008663] w-10 h-10 rounded-full"></div>
+            <h1 class="font-bold tracking-tighter">Sync your product catalog</h1>
+            <p class="text-gray-500 tracking-tight">Use Shopify  products automatically sync to facebook and Instagram so you can easily create ads and shoppable posts.</p>
+        </div>
+        <div class="w-65 flex flex-col gap-y-2">
+            <div class="bg-[#008663] w-10 h-10 rounded-full"></div>
+            <h1 class="font-bold tracking-tighter">Sell where people shop</h1>
+            <p class="text-gray-500 tracking-tight">Find the right features to market and sell your products in front of facebook and Instagram shoppers.</p>
+        </div>
+        <div class="w-65 flex flex-col gap-y-2">
+            <div class="bg-[#008663] w-10 h-10 rounded-full"></div>
+            <h1 class="font-bold tracking-tighter">Manage from within Shopify</h1>
+            <p class="text-gray-500 tracking-tight">Use Shopify to create, track and manage your ad compaigns and orders with facebook.</p>
+        </div>
+    </div>
+
+    <!--2nd page-->
+    <div class="pt-25">
+        <div class="text-center">
+            <h1 class="font-normal text-4xl">Powerful tools to scale your business</h1>
+            <p class="text-gray-500 py-5">Use Powerful selling and marketing tools to scale your business <br class="hidden md:block"> across Facebook, Instagram, and more.</p>
+        </div>
+        <div class="md:p-15 flex flex-col md:flex-row justify-between ">
+            <div class="p-10 my-10">
+                <div>
+                    <h1>FACEBOOK SHOPS</h1>
+                    <h2 class="text-[#004f41] py-5 text-2xl md:text-4xl font-normal">Offer a smooth shopping experience</h2>
+                </div>
+                <div class="py-7 grid grid-flow-row grid-cols-1 md:grid-flow-row md:grid-cols-2 gap-10">
+                    <div class="w-70">
+                        <h1 class="text-lg">Customize your shop</h1>
+                        <p class="text-gray-500">Bring the look and fell of your Shopify store to facebook Shops.</p>
+                    </div>
+                    <div class="w-70">
+                        <h1 class="text-lg">Create collections</h1>
+                        <p class="text-gray-500">Group items from your inventory to help customers discover your products.</p>
+                    </div>
+                    <div class="w-70">
+                        <h1 class="text-lg">Manage your Shop across channels</h1>
+                        <p class="text-gray-500">Run a custom shopping experience for Instagram and Facebook in one place.</p>
+                    </div>
+                </div>
+            </div>
+            <img class="md:w-180 md:h-150" src="./asset/2ndPagepicture.webp" alt="">
+        </div>
+    </div>
+    <!--3rd page-->
+    <div class="md:p-15 flex flex-col md:flex-row justify-between ">
+        <h1 class="block md:hidden text-center pt-25">INSTAGRAM SHOPPING</h1>
+        <img class="md:w-200 md:h-180" src="./asset/3rdPage-Instagram2.webp" alt="">
+        <div class="p-10 max-w-200">
+            <div>
+                <h1 class="hidden md:block">INSTAGRAM SHOPPING</h1>
+                <h2 class="text-[#004f41] py-5 text-3xl md:text-5xl font-normal">Transform posts and stories into shopping experiences with product tags</h2>
+            </div>
+            <div class="py-7 grid grid-flow-row grid-cols-1 md:grid-flow-row md:grid-cols-2 gap-10">
+                <div class="w-70">
+                    <h1 class="text-lg">Showcase your brand and products</h1>
+                    <p class="text-gray-500">Get your products in front of 1 billion trend-seeking shoppers on Instagram.</p>
+                </div>
+                <div class="w-70">
+                    <h1 class="text-lg">Remove shopping barriers</h1>
+                    <p class="text-gray-500">Provide a consistent in-app shopping experience, from product discovery to checkout.</p>
+                </div>
+                <div class="w-70">
+                    <h1 class="text-lg">Sell from one inventory</h1>
+                    <p class="text-gray-500">Use one product inventory that stays synced across all the places you sell in through Shopify.</p>
+                </div>
+                <div class="w-70">
+                    <h1 class="text-lg">Checkout on Instagram</h1>
+                    <p class="text-gray-500">Let customers browse and buy your products on Instagram, without leaving the app.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>
